@@ -2,17 +2,17 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.moodle.moodlemobile"
+        id        = "com.ponvidyashram.moodlemobile"
         versionCode = "20190"
         version   = "3.3.1">
-    <name>Moodle Mobile</name>
+    <name>ponvidyashram Mobile</name>
 
     <description>
-        Moodle Mobile official app
+        ponvidyashram Mobile official app
     </description>
 
-    <author href="http://moodle.com" email="mobile@moodle.com">
-        Moodle Mobile team
+    <author href="http://pon.com" email="mobile@pon.com">
+        ponvidyashram Mobile team
     </author>
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
@@ -42,7 +42,7 @@
     <preference name="webviewbounce"    value="false" />
     <preference name="prerendered-icon" value="true" />
     <preference name="load-url-timeout" value="60000" />
-    <preference name="AppendUserAgent" value="MoodleMobile" />
+    <preference name="AppendUserAgent" value="ponvidyashramMobile" />
     <preference name="android-minSdkVersion" value="14" />
     <preference name="android-targetSdkVersion" value="19" />
     <preference name="android-installLocation" value="auto" />
@@ -137,7 +137,7 @@
         <param name="SENDER_ID" value="694767596569" />
     </gap:plugin>
     <gap:plugin name="cordova-plugin-customurlscheme" source="npm">
-        <param name="URL_SCHEME" value="moodlemobile" />
+        <param name="URL_SCHEME" value="ponvidyashrammobile" />
     </gap:plugin>
     <gap:plugin name="ionic-plugin-keyboard" source="npm" />
     <gap:plugin name="cordova-plugin-zip" source="npm" />
